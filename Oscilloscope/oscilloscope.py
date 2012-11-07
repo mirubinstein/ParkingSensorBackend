@@ -66,6 +66,6 @@ while True:
 	else:
 		data[str(msg.id)] = [(timeString,str(value))]
 	
-	print "Data:",data
+	print "Data received from node:",str(msg.id),"with value:",str(value),"at time:",timeString
 	writeXML()
 
