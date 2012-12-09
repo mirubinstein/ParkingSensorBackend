@@ -1,4 +1,4 @@
-This directory contains the four main items for the backend, including:
+This system requires TinyOs 2.1.1 and Python 2.7.3. This directory contains the four main items for the backend, including:
 1. BaseStation: Installed on a TelosB, which acts as the basestation for the transponders and the magnetometers.
 2. Oscilloscope: Contains the python file needed to run on the server in order to read from the basestation and write the readings to an XML file, which is read by the frontend.
 3. OscilloscopeMag: Installed on a MicaZ, works with the magnetometer sensor and sends the readings to the basestation.
